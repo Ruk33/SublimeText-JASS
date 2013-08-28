@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[${1:private} struct ${2:struct_name} extends ${3:array}
+	${0:// body...}
+endstruct]]></content>
+    <tabTrigger>struct</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Struct</description>
+</snippet>
