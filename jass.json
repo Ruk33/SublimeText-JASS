@@ -6,16 +6,26 @@
 		{
 			"name": "comment.block.jass",
 
-			"begin": "^(\\s*/\\*)(.*)$",
+			"begin": "^(\\s*/\\*.*)$",
 			"beginCaptures": {
-				"1": { "name": "punctuation.definition.comment.jass" },
-				"2": { "name": "comment.strings.jass" }
+				"1": { "name": "comment.strings.jass" }
 			},
 
 			"end": "(\\s*\\*/\\s*)$",
 			"endCaptures": {
 				"1": { "name": "comment.strings.jass" }
 			}
+		},
+
+		{
+			"name": "comment.block.jass",
+
+			"begin": "/\\*",
+			"captures": {
+				"0": { "name": "punctuation.definition.comment.jass" }
+			},
+
+			"end": "\\*/"
 		},
 
 		{
