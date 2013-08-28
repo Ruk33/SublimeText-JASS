@@ -138,7 +138,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(extends|implements|final|private|protected|public|readonly|static)\b</string>
+			<string>\b(extends|implements|final|private|protected|public|readonly|constant|static)\b</string>
 			<key>name</key>
 			<string>storage.modifier.jass</string>
 		</dict>

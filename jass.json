@@ -112,7 +112,7 @@
 		{
 			"name": "storage.modifier.jass",
 
-			"match": "\\b(extends|implements|final|private|protected|public|readonly|static)\\b"
+			"match": "\\b(extends|implements|final|private|protected|public|readonly|constant|static)\\b"
 		},
 
 		{
