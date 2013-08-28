@@ -29,6 +29,12 @@
 		},
 
 		{
+			"name": "markup.other.macro.jass",
+
+			"match": "(//!).*$\\n?"
+		},
+
+		{
 			"name": "comment.line.double-slash.jass",
 
 			"captures": {

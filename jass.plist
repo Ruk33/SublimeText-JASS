@@ -51,6 +51,12 @@
 			<string>comment.block.jass</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>(//!).*$\n?</string>
+			<key>name</key>
+			<string>markup.other.macro.jass</string>
+		</dict>
+		<dict>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
