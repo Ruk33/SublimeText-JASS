@@ -1,6 +1,7 @@
 {
     "scope": "source.jass",
     "completions": [
+        "nothing",
         "AbortCinematicFadeBJ",
         "AcosBJ",
         "AddHeroXPSwapped",
