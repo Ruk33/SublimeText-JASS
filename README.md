@@ -8,7 +8,7 @@ Syntax definition for JASS (Warcraft 3) - Includes cJASS &amp; vJASS
 How to install?
 ===============
 
-* Now Preferences -> Browse Packages...
+* Preferences -> Browse Packages...
 * Create a new folder with the name JASS (Warcraft 3)
 * Drop all of the files there
 * Restart SublimeText
