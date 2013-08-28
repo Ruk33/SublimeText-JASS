@@ -44,6 +44,25 @@
 		},
 
 		{
+			"begin": "\"",
+			"beginCaptures": {
+				"0": { "name": "punctuation.definition.string.begin.jass" }
+			},
+			"contentName": "meta.string-contents.quoted.double.jass",
+
+			"end": "\"",
+			"endCaptures": {
+				"0": { "name": "punctuation.definition.string.end.jass" }
+			},
+
+			"name": "string.quoted.double.jass",
+
+			"patterns": [
+				{ "include": "#interpolation" }
+			]
+		},
+
+		{
 			"name": "keyword.operator.jass",
 
 			"match": "\\+|-|/|\\*|,|=|:|\\(|\\)|\\!|\\[|\\]|<|>|\\{|\\}|\\&|\\|\\.|\\%|\\^|\\.|\\|"
@@ -62,7 +81,7 @@
 		},
 
 		{
-			"name": "storage.type.js",
+			"name": "storage.type.jass",
 
 			"match": "\\b(void|float|int|bool|nothing|array|string|integer|real|code|boolean|handle|event|player|widget|unit|destructable|item|ability|buff|force|group|trigger|triggercondition|triggeraction|timer|location|region|rect|boolexpr|sound|conditionfunc|filterfunc|unitpool|itempool|race|alliancetype|racepreference|gamestate|igamestate|fgamestate|playerstate|playergameresult|unitstate|aidifficulty|eventid|gameevent|playerevent|playerunitevent|unitevent|limitop|widgetevent|dialogevent|unittype|gamespeed|gamedifficulty|gametype|mapflag|mapvisibility|mapsetting|mapdensity|mapcontrol|playerslotstate|volumegroup|camerafield|camerasetup|playercolor|placement|startlocprio|raritycontrol|blendmode|texmapflags|effect|effecttype|weathereffect|terraindeformation|fogstate|fogmodifier|dialog|button|quest|questitem|defeatcondition|timerdialog|leaderboard|multiboard|multiboarditem|trackable|gamecache|version|itemtype|texttag|playerscore|lightning|pathingtype|image|ubersplat|attacktype|damagetype|weapontype|soundtype|thistype|key|hashtable|agent)\\b"
 		},
