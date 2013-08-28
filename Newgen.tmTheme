@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Franco Montenegro</string>
+	<key>name</key>
+	<string>Newgen</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>fontFace</key>
+				<string>Courier New</string>
+
+				<key>background</key>
+				<string>#FFFFFF</string>
+
+				<key>caret</key>
+				<string>#000000</string>
+
+				<key>foreground</key>
+				<string>#000000</string>
+
+				<key>invisibles</key>
+				<string>#FFFFFF40</string>
+
+				<key>lineHighlight</key>
+				<string>#DDF0FF08</string>
+
+				<key>selection</key>
+				<string>#98C2E333</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#396E04</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Macro</string>
+			<key>scope</key>
+			<string>markup.other.macro.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#993300</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Strings</string>
+			<key>scope</key>
+			<string>string.quoted.double.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#00F</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Operators</string>
+			<key>scope</key>
+			<string>keyword.operator.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#A55630</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Storage Type</string>
+			<key>scope</key>
+			<string>storage.type.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#47A</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Keyword control</string>
+			<key>scope</key>
+			<string>keyword.control.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Keyword other</string>
+			<key>scope</key>
+			<string>keyword.other.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Rawcode</string>
+			<key>scope</key>
+			<string>string.quoted.single.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Boolean true</string>
+			<key>scope</key>
+			<string>constant.language.boolean.true.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#33F</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Boolean false</string>
+			<key>scope</key>
+			<string>constant.language.boolean.false.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#33F</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Constant null</string>
+			<key>scope</key>
+			<string>constant.language.null.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#33F</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Variable language</string>
+			<key>scope</key>
+			<string>variable.language.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#33F</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Constant other</string>
+			<key>scope</key>
+			<string>constant.other.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#47A</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Storage modifiers</string>
+			<key>scope</key>
+			<string>storage.modifier.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Numbers</string>
+			<key>scope</key>
+			<string>constant.numeric.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#33F</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Variable global BJ</string>
+			<key>scope</key>
+			<string>variable.other.bj.global.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#47A</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>BJ functions</string>
+			<key>scope</key>
+			<string>support.function.bj.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D40808</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Native functions</string>
+			<key>scope</key>
+			<string>support.function.native.jass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#800080</string>
+			</dict>
+		</dict>
+		
+	</array>
+	<key>uuid</key>
+	<string>766026CB-703D-4610-B070-8DE07D967C5F</string>
+</dict>
+</plist>
