@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[${1:function_prefix} function ${2:function_name} takes ${3:argument} returns ${4:return_type}
+    <content><![CDATA[${1:private} function ${2:function_name} takes ${3:nothing} returns ${4:nothing}
 	${0:// body...}
 endfunction]]></content>
     <tabTrigger>function</tabTrigger>
