@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[${1:function_prefix} function ${2:function_name} takes ${3:argument} returns ${4:return_type}
+	${0:// body...}
+endfunction]]></content>
+    <tabTrigger>fun</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Function</description>
+</snippet>
