@@ -141,7 +141,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(define|enddefine|enum|globals|endglobals|function|endfunction|takes|returns|keyword|local|set|call|delegate|initializer|uses|needs|requires|interface|endinterface|scope|endscope|library|library_once|endlibrary|struct|endstruct|method|endmethod|operator|module|endmodule|implement|optinal)\b</string>
+			<string>\b(define|enddefine|globals|endglobals|function|endfunction|takes|returns|keyword|local|set|call|delegate|initializer|uses|needs|requires|interface|endinterface|scope|endscope|library|library_once|endlibrary|struct|endstruct|method|endmethod|operator|module|endmodule|implement|optinal)\b</string>
+			<key>name</key>
+			<string>keyword.other.jass</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^[^a-z0-9]*enum</string>
 			<key>name</key>
 			<string>keyword.other.jass</string>
 		</dict>

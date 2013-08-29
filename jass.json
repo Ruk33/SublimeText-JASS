@@ -101,7 +101,13 @@
 		{
 			"name": "keyword.other.jass",
 
-			"match": "\\b(define|enddefine|enum|globals|endglobals|function|endfunction|takes|returns|keyword|local|set|call|delegate|initializer|uses|needs|requires|interface|endinterface|scope|endscope|library|library_once|endlibrary|struct|endstruct|method|endmethod|operator|module|endmodule|implement|optinal)\\b"
+			"match": "\\b(define|enddefine|globals|endglobals|function|endfunction|takes|returns|keyword|local|set|call|delegate|initializer|uses|needs|requires|interface|endinterface|scope|endscope|library|library_once|endlibrary|struct|endstruct|method|endmethod|operator|module|endmodule|implement|optinal)\\b"
+		},
+
+		{
+			"name": "keyword.other.jass",
+
+			"match": "^[^a-z0-9]*enum"
 		},
 
 		{
